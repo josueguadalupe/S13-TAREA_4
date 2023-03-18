@@ -1,0 +1,40 @@
+body{
+    background: url(../img/fondo.jpg);
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+}
+div{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap: 15px;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    font-size:60px;
+}
+.opcion{
+    display:block;
+    text-align:center;
+    text-decoration: underline;
+    width:350px;
+    height:60px;
+    border-radius:10px;
+    line-height:60px;
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    background-image: linear-gradient(to right top, #eb0a0a,#eb341c, #2112eb);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.opcion:hover{
+    height:70px;
+    line-height:70px;
+    background-image: linear-gradient(to right top,#0a100e, #ffffff);
+    
+}
+
+
